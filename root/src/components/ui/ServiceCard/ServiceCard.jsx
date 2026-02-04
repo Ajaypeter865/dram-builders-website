@@ -1,17 +1,12 @@
-
-
-const ServiceCard = ({ titile, discription }) => {
-
-
+const ServiceCard = ({ title, description }) => {
     return (
-        <div>
-          
-            <div>
-                <h1>{titile}</h1>
-                <h2>{discription}</h2>
-            </div>
-        </div>
-    )
-}
+        <div className="service-card">
+            <div className="service-icon"></div>
 
-export default ServiceCard
+            <h3 className="service-title">{title}</h3>
+            <p className="service-text">{description}</p>
+        </div>
+    );
+};
+
+export default ServiceCard;

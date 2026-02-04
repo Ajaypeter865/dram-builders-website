@@ -1,27 +1,29 @@
-import services from "../../data/services"
-import ServiceCard from "../../components/ui/ServiceCard/serviceCard"
+import services from "../../data/services";
+import ServiceCard from "../../components/ui/ServiceCard/ServiceCard";
 
 const Services = () => {
-
     return (
-        <section>
-            <div>
-                <h3>What we do</h3>
-                <h2>Specialized Services for Complex Visionaries</h2>
+        <section className="services-section">
+
+            <div className="services-header">
+                <h2 className="section-title">What We Do</h2>
+                <p className="section-subtitle">
+                    Specialized Services for Complex Visionaries
+                </p>
             </div>
 
-            <div>
-                {services.map((service) => (<ServiceCard
-                    key={service.id}
-                    titile={service.titile}
-                    discription={service.description}
-                />))}
+            <div className="services-grid">
+                {services.map((service) => (
+                    <ServiceCard
+                        key={service.id}
+                        title={service.title}
+                        description={service.description}
+                    />
+                ))}
             </div>
 
         </section>
-    )
+    );
+};
 
-}
-
-
-export default Services
+export default Services;

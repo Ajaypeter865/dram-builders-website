@@ -1,24 +1,22 @@
-import StatCard from "../../components/ui/StatCard/StatCard"
-import statsData from "../../data/stats"
+import StatCard from "../../components/ui/StatCard/StatCard";
+import statsData from "../../data/stats";
 
 const Stats = () => {
-
     return (
-        <section>
-            <div>
-                {statsData.map((data, index) => (
-                    <StatCard key={index}
-                        value={data.value}
-                        label={data.label} />
-                ))}
-
+        <section className="stats-section">
+            <div className="stats-container">
+                <div className="stats-grid">
+                    {statsData.map((stat, index) => (
+                        <StatCard
+                            key={stat.index}
+                            value={stat.value}
+                            label={stat.label}
+                        />
+                    ))}
+                </div>
             </div>
-
         </section>
-    )
-}
+    );
+};
 
-
-export default Stats
-
-
+export default Stats;

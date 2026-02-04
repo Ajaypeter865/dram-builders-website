@@ -1,20 +1,28 @@
-import Button from "../../components/ui/Button/Button"
+import Button from "../../components/ui/Button/Button";
 
 const Hero = () => {
-
     return (
-        <section>
-            <h1>Building the Future</h1>
-            <h2>with Precision</h2>
-            <p>High-end infrastructure and architectural marvels engineered for the next generation of urban living.</p>
+        <section className="hero-section">
+            <div className="hero-overlay"></div>
 
-            <div>
-                <Button>View Portfolio</Button>
-                <Button>View Techincal Specs</Button>
+            <div className="hero-container">
+                <h1 className="hero-title">
+                    Building the Future{" "}
+                    <span className="hero-title-highlight">with Precision</span>
+                </h1>
+
+                <p className="hero-subtitle">
+                    High-end infrastructure and architectural marvels engineered for the
+                    next generation of urban living.
+                </p>
+
+                <div className="hero-actions">
+                    <Button className="btn btn-primary">View Portfolio</Button>
+                    <Button className="btn btn-secondary">View Technical Specs</Button>
+                </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-
-export default Hero
+export default Hero;

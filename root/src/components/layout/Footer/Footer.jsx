@@ -1,23 +1,36 @@
-import Button from "../../ui/Button/Button"
-
-
+import Button from "../../ui/Button/Button";
 
 const Footer = () => {
     return (
-        <footer>
-            <h3>DRAM</h3>
-            <p>Defining the skylines of tomorrow with uncompromising engineering and visionary design.</p>
+        <footer className="site-footer">
+            <div className="footer-container">
 
-            <nav>
-                <a href="#">About Us</a>
-                <a href="#">Safety Proccess</a>
-                <a href="#">Our Location</a>
-            </nav>
+                <div className="footer-brand">
+                    <h3 className="footer-logo">DRAM</h3>
+                    <p className="footer-description">
+                        Defining the skylines of tomorrow with uncompromising engineering and visionary design.
+                    </p>
+                </div>
 
-            <input type="text" placeholder="Your Email" />
-            <Button>JOIN LIST</Button>
+                <nav className="footer-nav">
+                    <a className="footer-link" href="#">About Us</a>
+                    <a className="footer-link" href="#">Safety Process</a>
+                    <a className="footer-link" href="#">Our Location</a>
+                </nav>
+
+        
+                <div className="footer-newsletter">
+                    <input
+                        className="footer-input"
+                        type="email"
+                        placeholder="Your Email"
+                    />
+                    <Button className="btn btn-primary">Join List</Button>
+                </div>
+
+            </div>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

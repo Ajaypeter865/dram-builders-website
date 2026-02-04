@@ -1,16 +1,18 @@
-import Header from "../components/layout/Header/Header"
-import Footer from "../components/layout/Footer/Footer"
+import Header from "../components/layout/Header/Header";
+import Footer from "../components/layout/Footer/Footer";
 
 const MainLayout = ({ children }) => {
-
     return (
-        <>
+        <div className="app-layout">
             <Header />
-            <main>{children}</main>
+
+            <main className="site-main">
+                {children}
+            </main>
+
             <Footer />
-        </>
-    )
-}
+        </div>
+    );
+};
 
-
-export default MainLayout
+export default MainLayout;

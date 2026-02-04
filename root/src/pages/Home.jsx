@@ -1,4 +1,4 @@
-import ServiceCard from "../components/ui/ServiceCard/serviceCard"
+// import ServiceCard from "../components/ui/ServiceCard/serviceCard"
 import Hero from "../sections/home/hero"
 import PortFolio from "../sections/home/Portfolio"
 import Stats from "../sections/home/Stats"
