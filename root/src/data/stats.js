@@ -1,18 +1,28 @@
-
 const statsData = [
-
     {
-        value: 'Years of Excellence', label: '20+'
+        icon: "📚", // You can use emoji or remove if you don't want icons
+        value: "20",
+        highlight: "+",
+        label: "Years of Excellence"
     },
-
     {
-        value: 'Projects Delivered', label: '500+'
+        icon: "🏢",
+        value: "500",
+        highlight: "+",
+        label: "Projects Delivered"
     },
-
     {
-        value: 'Safety Records', label: '100%'
+        icon: "🏆",
+        value: "15",
+        highlight: "+",
+        label: "Global Awards"
     },
-]
+    {
+        icon: "✓",
+        value: "100",
+        highlight: "%",
+        label: "Safety Record"
+    }
+];
 
-
-export default statsData
+export default statsData;

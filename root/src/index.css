@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
-:root {
+@theme {
+  /* Colors */
+  --color-primary: #1e78d6;
+  --color-background-dark: #0b1520;
+  --color-concrete: #9aa4af;
+
+  /* Fonts */
+  --font-family-display: "Space Grotesk", sans-serif;
+}
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -57,9 +67,9 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -72,4 +82,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

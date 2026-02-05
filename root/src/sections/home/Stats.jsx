@@ -8,9 +8,11 @@ const Stats = () => {
                 <div className="stats-grid">
                     {statsData.map((stat, index) => (
                         <StatCard
-                            key={stat.index}
+                            key={index}
+                            icon={stat.icon}
                             value={stat.value}
                             label={stat.label}
+                            highlight={stat.highlight}
                         />
                     ))}
                 </div>
