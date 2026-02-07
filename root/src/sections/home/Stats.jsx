@@ -1,6 +1,7 @@
 import StatCard from "../../components/ui/StatCard/StatCard";
 import statsData from "../../data/stats";
 
+
 const Stats = () => {
     return (
         <section className="stats-section">
