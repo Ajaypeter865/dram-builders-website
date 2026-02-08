@@ -9,6 +9,7 @@ import image5 from '../assets/images/image 5.png';
 import image6 from '../assets/images/image 6.png';
 
 
+
 const projects = [
     {
         id: 1,

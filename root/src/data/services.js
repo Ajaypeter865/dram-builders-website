@@ -3,19 +3,22 @@
 const services = [
     {
         id: 1,
-        title: "Residential Construction",
-        description: "High-quality homes built to last.",
+        icon: "🏗️", // You can use emoji or icon library
+        title: "Structural Engineering",
+        description: "Advanced skeletal designs using carbon-reinforced polymers and high-grade steel alloys."
     },
     {
         id: 2,
-        title: "Commercial Projects",
-        description: "Offices, complexes, and retail spaces.",
+        icon: "🌱",
+        title: "Sustainable Development",
+        description: "Integrating renewable energy grids and net-zero water management systems into every project."
     },
     {
         id: 3,
-        title: "Renovation & Remodeling",
-        description: "Modern upgrades for existing buildings.",
-    },
+        icon: "🔧",
+        title: "Project Management",
+        description: "AI-driven scheduling and resource allocation to ensure 100% on-time delivery metrics."
+    }
 ];
 
 export default services;
