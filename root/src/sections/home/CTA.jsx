@@ -45,14 +45,14 @@ const CTA = () => {
                     Consult with our expert engineers today to bring your high-scale architectural vision to reality.
                 </p>
                 <div className="flex flex-wrap justify-center gap-6">
-                    <button
+                    <Button
                         className="px-10 py-5 bg-white text-primary font-bold rounded-lg hover:bg-slate-100 transition-colors shadow-xl">
                         START A CONSULTATION
-                    </button>
-                    <button
+                    </Button>
+                    <Button
                         className="px-10 py-5 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition-colors">
                         OUR LOCATIONS
-                    </button>
+                    </Button>
                 </div>
             </div>
         </section>
