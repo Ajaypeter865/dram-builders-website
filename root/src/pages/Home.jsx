@@ -5,7 +5,7 @@ import Stats from "../sections/home/Stats"
 import Services from "../sections/home/Services"
 import CTA from "../sections/home/CTA"
 
-const Home = () => {
+const  Home = () => {
 
     return (
         <>

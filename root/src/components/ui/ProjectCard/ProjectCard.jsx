@@ -1,3 +1,6 @@
+
+
+
 const ProjectCard = ({ title, category, description, image, isFeatured }) => {
     return (
         <div className={`project-card ${isFeatured ? 'project-card-featured' : ''}`}>
