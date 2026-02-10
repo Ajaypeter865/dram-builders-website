@@ -32,32 +32,34 @@
 
 import Button from '../../components/ui/Button/Button'
 
-
 const CTA = () => {
-
-
     return (
-        
         <section className="cta-section">
-            <div className="max-w-5xl mx-auto px-6 text-center">
-                <h2 className="text-white text-4xl md:text-6xl font-black font-display mb-8">Ready to Build the Future</h2>
-                <p className="text-white/80 text-lg mb-12 max-w-2xl mx-auto">
+            <div className="cta-container">
+                
+                {/* CTA Heading */}
+                <h2 className="cta-title">
+                    Ready to Build the Future?
+                </h2>
+                
+                {/* CTA Description */}
+                <p className="cta-description">
                     Consult with our expert engineers today to bring your high-scale architectural vision to reality.
                 </p>
-                <div className="flex flex-wrap justify-center gap-6">
-                    <Button
-                        className="px-10 py-5 bg-white text-primary font-bold rounded-lg hover:bg-slate-100 transition-colors shadow-xl">
+                
+                {/* CTA Buttons */}
+                <div className="cta-actions">
+                    <Button className="cta-button-primary">
                         START A CONSULTATION
                     </Button>
-                    <Button
-                        className="px-10 py-5 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition-colors">
+                    <Button className="cta-button-secondary">
                         OUR LOCATIONS
                     </Button>
                 </div>
+                
             </div>
         </section>
     )
 }
-
 
 export default CTA
